@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 # Step 1: Load the Data with Error Handling
 # -----------------------------------------
 try:
-    links = pd.read_csv('link.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
-    nodes = pd.read_csv('node.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
-    demand = pd.read_csv('demand.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
+    links = pd.read_csv('Urban_Data/csv/link.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
+    nodes = pd.read_csv('Urban_Data/csv/node.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
+    demand = pd.read_csv('Urban_Data/csv/demand.csv', delimiter=',', encoding='utf-8', error_bad_lines=False)
 except Exception as e:
     print(f"Error reading CSV files: {e}")
     exit()

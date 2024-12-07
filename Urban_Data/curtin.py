@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 # Step 1: Load the Data
 # ---------------------
 # Load the datasets
-links = pd.read_csv('link.csv')
-nodes = pd.read_csv('node.csv')
-demand = pd.read_csv('demand.csv')
+links = pd.read_csv('Urban_Data/csv/link.csv')
+nodes = pd.read_csv('Urban_Data/csv/node.csv')
+demand = pd.read_csv('Urban_Data/csv/demand.csv')
 
 # Step 2: Calculate Road Capacity
 # -------------------------------
