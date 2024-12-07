@@ -5,11 +5,11 @@ from shapely.geometry import Point, Polygon
 # Step 1: Load Data
 # -----------------
 # Load all datasets
-nodes = pd.read_csv('node.csv')
-links = pd.read_csv('link.csv')
-zones = pd.read_csv('zone.csv')
-demand = pd.read_csv('demand.csv')
-pois = pd.read_csv('poi.csv')
+nodes = pd.read_csv('Urban_Data/csv/node.csv')
+links = pd.read_csv('Urban_Data/csv/link.csv')
+zones = pd.read_csv('Urban_Data/csv/zone.csv')
+demand = pd.read_csv('Urban_Data/csv/demand.csv')
+pois = pd.read_csv('Urban_Data/csv/poi.csv')
 
 # Step 2: Ensure Zone Geometry
 # ----------------------------
